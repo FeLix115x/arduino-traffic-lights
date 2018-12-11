@@ -1,4 +1,4 @@
-/**
+﻿/**
    @author Raitis Ralfs Vecmanis, Roksolana Amarova, Fēlikss Kamiševs
    Traffic light project
 */
@@ -171,13 +171,7 @@ void setSevenSegNumber(int n) {
       digitalWrite(d, HIGH);
       break;
     default:
-      digitalWrite(a, LOW);
-      digitalWrite(b, LOW);
-      digitalWrite(c, LOW);
-      digitalWrite(d, LOW);
-      digitalWrite(e, LOW);
-      digitalWrite(f, LOW);
-      digitalWrite(g, LOW);
+      clearDisplay();	// clears all pins by default
       break;
   }
 }
