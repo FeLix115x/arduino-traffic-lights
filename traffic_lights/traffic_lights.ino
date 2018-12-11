@@ -1,10 +1,7 @@
 ﻿/**
-   @author Raitis Ralfs Vecmanis, Roksolana Amarova, Fēlikss Kamiševs
    Traffic light project
 */
-#include "SevSeg.h"
 
-SevSeg sevseg;  // seven segment display
 
 int carRed = 12; //car red light being assigned
 int carYellow = 11;
