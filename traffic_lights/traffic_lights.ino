@@ -14,7 +14,7 @@ const int crossTime = 5000;
 unsigned long carGreenTime; // collects the time since the car green light is on
 int minCarGreenTime = 5000; //minimum time cars will have green light ON
 
-const int a = 0, b = 1, c = 2, d = 3, e = 4, f = 5, g = 6;  // defining 7-sgement pin variables
+const int a = A3, b = A4, c = 2, d = 3, e = 4, f = 5, g = 6;  // defining 7-sgement pin variables
 
 // ultrasonic sensor
 const int trigPin = A0;
